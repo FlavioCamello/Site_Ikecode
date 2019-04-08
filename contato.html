@@ -22,6 +22,7 @@
    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 
    <!-- Bootstrap Grid CSS & Style CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
    <link rel="stylesheet" href="css/bootstrap-grid.css">
    <link href="css/style.css" rel="stylesheet">
 </head>
@@ -32,17 +33,17 @@
    <header class="container-fluid background-gray">
       <div class="container">
          <nav class="row">
-            <div class="col-sm-12 col-md-4">
+            <div class="col-sm-12 col-md-3">
                <a href="index.html" class="logo">
                   <img class="logo-ikecode" src="img/logo.svg" alt="Logo da Ikecode">
                </a>
             </div>
-            <div class="col-sm">
+            <div class="col-sm-9">
                <ul class="push-nav">
-                  <li><a href="cursos.html">Cursos</a></li>
-                  <li><a href="vantagens.html">Vantagens</a></li>
-                  <li><a href="https://medium.com/ikecode" target="_blank">Blog</a></li>
-                  <li><a class="active" href="contato.html">Contato</a></li>
+                  <li class="nav-item"><a class="nav-link" href="cursos.html">Cursos</a></li>
+                  <li class="nav-item"><a class="nav-link" href="vantagens.html">Metodologia e Vantagens</a></li>
+                  <li class="nav-item"><a class="nav-link" href="escolas.html">Seja um escola parceira</a></li>
+                  <li class="nav-item"><a class="nav-link active" href="contato.html">Contato</a></li>
                </ul>
             </div>
          </nav>
@@ -59,9 +60,12 @@
             </div>
             <div class="col-sm-12 col-md-12 col-lg-8 col-xl-6">
                <h2 class="text-blue contact-text-center">Entre em contato conosco.<br>Vamos bater um papo!</h2>
-               <small class="text-red contact-text-center">* Campos obrigatórios</small>
+               
                <form method="POST" action="https://formspree.io/flaviocamellosi@gmail.com">
                   <div class="form-group bold">
+					 <label>Ligue: (27) 999250464 </label>
+					 
+					 <label>Entre em contato por email:</label>
                      <label>Nome<span class="text-red">*</span></label>
                      <input required type="text" name="name" placeholder="Digite seu nome">
                      <label>E-mail<span class="text-red">*</span></label>

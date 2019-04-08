@@ -138,11 +138,37 @@ header nav ul li a.active {
 /*
 ********************************************************************** SECTIONS
 */
+.destaque1{
+    background-image: url('../img/imgd.jpg'); 
+    background-size: 100%;
+    border-radius: 15px;
+    height: 260px;   
+    padding-right: 10px;
+    margin-right: 5px;
+}
+.img-escolas {
+   display: flex;
+   align-items: center;
+   min-height: 75vh;
+   background:url("../img/imge.jpg") center fixed;
+}
+.first-vantagens-section {
+   display: flex;
+   align-items: center;
+   min-height: 75vh;
+   background:url("../img/imgr.png") center fixed;
+}
+.first-escolas-section {
+   display: flex;
+   align-items: center;
+   min-height: 75vh;
+   background:url("../img/imgi.jpg") center fixed;
+}
 .first-home-section {
    display: flex;
    align-items: center;
    min-height: 75vh;
-   background:url("../img/icon-pattern.jpg") center fixed;
+   background:url("../img/icon-pattern_e.png") center fixed;
 }
 .first-home-section img {
    float: right;
@@ -240,6 +266,9 @@ footer ul li a img {
 .footer-top {
    border-top: 5px solid #008ac8;
 }
+.footer-top-red {
+   border-top: 5px solid #e55e4b;
+}
 .logo-and-media {
    display: flex;
    align-items: center;
@@ -302,6 +331,15 @@ label {
    border: 2px solid #fff;
    color: #fff;
    background-color: #e55e4b;
+}
+.button-color-green {
+   border: 2px solid #fff;
+   color: #fff;
+   background-color: #00936c;
+}
+.button-color-green:hover {
+   color: #00936c;
+   background-color: #fff;
 }
 .button-color-blog:hover {
    color: #e55e4b;
@@ -448,6 +486,10 @@ label {
    h3 {
       font-size: 1.333rem;
       line-height: 1.777rem;
+	  
+   }
+   h4{
+	   margin-top: 20px;
    }
    .nav-space {
       margin-top: 110px;
@@ -531,4 +573,10 @@ label {
 }
 .background-blue {
    background-color: #008ac8;
+}
+.background-orange {
+   background-color: #f1a11e;
+}
+.background-green {
+   background-color: #00936c;
 }

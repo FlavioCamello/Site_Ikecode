@@ -22,6 +22,7 @@
    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 
    <!-- Bootstrap Grid CSS & Style CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
    <link rel="stylesheet" href="css/bootstrap-grid.css">
    <link href="css/style.css" rel="stylesheet">
 </head>
@@ -32,17 +33,17 @@
    <header class="container-fluid background-gray">
       <div class="container">
          <nav class="row">
-            <div class="col-sm-12 col-md-4">
+            <div class="col-sm-12 col-md-3">
                <a href="index.html" class="logo">
                   <img class="logo-ikecode" src="img/logo.svg" alt="Logo da Ikecode">
                </a>
             </div>
-            <div class="col-sm">
+            <div class="col-sm-9">
                <ul class="push-nav">
-                  <li><a class="active" href="cursos.html">Cursos</a></li>
-                  <li><a href="vantagens.html">Vantagens</a></li>
-                  <li><a href="https://medium.com/ikecode" target="_blank">Blog</a></li>
-                  <li><a href="contato.html">Contato</a></li>
+                  <li class="nav-item"><a class="nav-link active" href="cursos.html">Cursos</a></li>
+                  <li class="nav-item"><a class="nav-link" href="vantagens.html">Metodologia e Vantagens</a></li>
+                  <li class="nav-item"><a class="nav-link" href="escolas.html">Seja um escola parceira</a></li>
+                  <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
                </ul>
             </div>
          </nav>
@@ -55,78 +56,65 @@
       <div class="container courses-image-width">
          <div class="row center-elements">
             <h2 class="text-orange h2-margin">Conheça melhor nossos cursos</h2>
-         </div>
+         </div>         
          <div class="row center-elements">
-            <h3 class="text-blue h3-margin">Cursos Regulares</h3>
-         </div>
-         <div class="row courses-info-center">
-            <div class="col-sm-12 col-md-4 col-lg-3">
-               <i class="fa fa-calendar courses-info bold" aria-hidden="true">
-                  <span>1 aula por semana</span>
-               </i>
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-3">
-               <i class="fa fa-clock-o courses-info bold" aria-hidden="true">
-                  <span>90 minutos</span>
-               </i>
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-3">
-               <i class="fa fa-laptop courses-info bold" aria-hidden="true">
-                  <span>18 aulas por módulo</span>
-               </i>
-            </div>
-         </div>
-         <div class="row center-elements">
-            <div class="col-10 col-sm-6 col-md-4 col-lg-4 courses-margin">
-               <img src="img/ikekids.png" alt="">
-               <h4>IkeKids</h4>
-               <p class="bold">Idade: 6 a 7 anos</p>
-               <p>Exercitamos conceitos de lógica, abstração e apresentamos tecnologia como ferramenta de criação.</p>
-            </div>
             <div class="col-10 col-sm-6 col-md-4 col-lg-4 courses-margin">
                <img src="img/games.png" alt="">
-               <h4>Crie Games</h4>
-               <p class="bold">Idade: 8 a 14 anos</p>
-               <p>Com foco em criação de jogos, ensinamos lógica e linguagens computacionais.</p>
+            </div>
+            <div class="col-10 col-sm-6 col-md-4 col-lg-4 align-center">              
+               <h4 class="text-blue h3-margin">Crie Games</h4>
+               
+               <p>Quem gosta de game? Nossos alunos deixam de ser jogadores passivos e se transformam em criadores de game. Com o decorrer do curso
+				os alunos descobrem a lógica que é aplicada a todos os games que eles adoram jogar.</p>
             </div>
          </div>
-         <div class="row center-elements">
+		 <div class="row center-elements nav-space">
+            <div class="col-10 col-sm-6 col-md-4 col-lg-4 align-center">              
+               <h4 class="text-blue h3-margin">Crie Apps</h4>
+               
+               <p>Seja para facilitar o cotidiano ou para revolucionar o mercado de aplicativos, os alunos aprendem a criar uma das tecnologias mais usadas da atualidade. 
+				</p>
+            </div>
+			<div class="col-10 col-sm-6 col-md-4 col-lg-4 courses-margin">
+               <img src="img/app.png" alt="">
+            </div>
+         </div>
+		 <div class="row center-elements nav-space">
+            <div class="col-10 col-sm-6 col-md-4 col-lg-4 courses-margin">
+               <img src="img/robotica.png" alt="">
+            </div>
+            <div class="col-10 col-sm-6 col-md-4 col-lg-4 align-center">              
+               <h4 class="text-blue h3-margin">IOT Maker</h4>
+               <p>Os robôs são utilizados para ajudar em nosso dia dia. No curso, os alunos aprendem sobre circuitos eletrônicos e lógica de programação com 
+					apoio de sensores e placas computacionais.</p>
+            </div>
+         </div>
+		 <div class="row center-elements nav-space">
+            <div class="col-10 col-sm-6 col-md-4 col-lg-4 align-center">              
+               <h4 class="text-blue h3-margin">Letramento Digital</h4>
+               <p>Em nosso curso preparado para atender aos currículos escolares, os alunos aprendem sobre, games, apps e robótica. 
+				Aprendem também a fazer um uso qualificado das diversas ferramentas existentes e de compreender o pensamento computacional e os impactos da tecnologia 
+				na vida das pessoas e da sociedade.   
+					</p>
+            </div>
+			<div class="col-10 col-sm-6 col-md-4 col-lg-4 courses-margin">
+               <img src="img/ikekids.png" alt="">
+            </div>
+         </div>
+         <div class="row center-elements nav-space">
             <h3 class="text-blue h3-margin">Cursos Rápidos</h3>
          </div>
-         <div class="row courses-info-center">
-            <div class="col-sm-12 col-md-4 col-lg-3">
-               <i class="fa fa-calendar courses-info bold" aria-hidden="true">
-                  <span>1 aula por semana</span>
-               </i>
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-3">
-               <i class="fa fa-clock-o courses-info bold" aria-hidden="true">
-                  <span>90 minutos</span>
-               </i>
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-3">
-               <i class="fa fa-laptop courses-info bold" aria-hidden="true">
-                  <span>4 aulas por módulo</span>
-               </i>
-            </div>
-         </div>
-         <div class="row center-elements">
+         <div class="row center-elements nav-space">
             <div class="col-10 col-sm-6 col-md-4 col-lg-4 courses-margin">
                <img src="img/minecraft.png" alt="">
-               <h4>Minecraft Modding</h4>
-               <p class="bold">Idade: 8 a 17 anos</p>
-               <p>Criar seus próprios mods para Minecraft, é uma maneira divertida de iniciar na programação.</p>
+               <h4>Minecraft Modding</h4>              
+               <p>Utilizamos mods no Minecraft que necessitam de programação, é uma maneira divertida de iniciar nesse mundo.</p>
             </div>
-            <div class="col-10 col-sm-6 col-md-4 col-lg-4 courses-margin">
-               <img src="img/app.png" alt="">
-               <h4>Meu primeiro App</h4>
-               <p class="bold">Idade: 8 a 17 anos</p>
-               <p>Os alunos aprenderão a criar seus próprios aplicativos para celulares e tablets.</p>
-            </div>
+            
             <div class="col-10 col-sm-6 col-md-4 col-lg-4 courses-margin">
                <img src="img/youtuber.png" alt="">
                <h4>Youtuber</h4>
-               <p class="bold">Idade: 8 a 17 anos</p>
+               
                <p>Os alunos aprendem de forma rápida e divertida as melhores práticas para começar um canal no Youtube de sucesso.</p>
             </div>
          </div>
